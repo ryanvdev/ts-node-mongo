@@ -1,0 +1,12 @@
+version: '2'
+services:
+    app:
+        build: .
+        image: your_tag_name
+        container_name: your_container_name
+
+        #
+        cpus: '1'
+        mem_limit: 1GB
+        memswap_limit: 3GB
+        restart: unless-stoppped
