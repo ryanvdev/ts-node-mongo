@@ -1,4 +1,4 @@
-import { EnvType } from '../configs/envConfig';
+import { EnvType } from '../configs/envschema';
 
 export {};
 
